@@ -16,7 +16,7 @@
         body {
             display: flex;
             align-items: center;
-            padding: 0 5px;
+            padding: 0 10px;
             justify-content: center;
             min-height: 100vh;
             background: white;
@@ -24,13 +24,13 @@
         .wrapper {
             max-width: 100%;
             width: 225px;
-            background: red;
+            background: #fff;
             border-radius: 10px;
         }
         .wrapper header {
             display: flex;
             align-items: center;
-            padding: 10px 14px 5px;
+            padding: 10px 15px 5px;
             justify-content: space-between;
             background: #EDF3ED;
             border-radius: 10px 10px 0 0;
@@ -39,14 +39,14 @@
             display: flex;
         }
         header .icons span {
-            height: 18px;
-            width: 18px;
+            height: 38px;
+            width: 38px;
             margin: 0 1px;
             cursor: pointer;
-            color: #353635;
+            color: #414541;
             text-align: center;
-            line-height: 19px;
-            font-size: 1rem;
+            line-height: 38px;
+            font-size: 1.2rem;
             user-select: none;
             border-radius: 50%;
         }
@@ -57,12 +57,11 @@
             background: #ced9ce;
         }
         header .current-date {
-            font-size: 1rem;
-            font-weight: 400;
-            color: #373530;
+            font-size: 1.1rem;
+            font-weight: 500;
         }
         .calendar {
-            padding: 10px;
+            padding: 20px;
             background: #fdfffd;
         }
         .calendar ul {
@@ -77,18 +76,18 @@
         .calendar li {
             color: #333;
             width: calc(100% / 7);
-            font-size: 0.6rem;
+            font-size: 0.78rem;
         }
         .calendar .weeks li {
-            font-weight: 200;
+            font-weight: 400;
             cursor: default;
         }
         .calendar .days li {
             z-index: 1;
             cursor: pointer;
             position: relative;
-            margin-top: 14px;
-            font-weight: 100;
+            margin-top: 15px;
+            font-weight: 200;
         }
         .days li.inactive {
             color: #aaa;
